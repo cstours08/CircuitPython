@@ -3,6 +3,14 @@
 # This Page Includes...
 -[Hello Arduino (and Metro and Mu)](#Hello-Arduino-and-Metro-and-Mu)
 
+-[CircuitPython Servo](#CircuitPython-Servo)
+
+-[CircuitPython LCD](#CircuitPython-LCD)
+
+-[CircuitPython Photointerrupters](#CircuitPython-Photointerrupters)
+
+-[CircuitPython Distance Sensor](#CircuitPython-Distance-Sensor)
+
 # Hello Arduino (and Metro and Mu) 
 
 ## Description
@@ -56,21 +64,41 @@ in this assignment we had to write a program for a LCD screen instructing it to 
 
 ##### [A link to where you can download the exact fzz (fritzing) file](https://github.com/cstours08/CircuitPython/blob/master/Sketchs/Lcd%20Counter%20with%20switch%20Sketch.fzz)
 
-##### [Link to the code I wrote]()
+##### [Link to the code I wrote](https://github.com/cstours08/CircuitPython/blob/master/LCD%20counter%20with%20switch.py)
 
-	- Circuitpython Servo.py
-	This file instructs a servo to turn based from 0 to 180 degrees.
+# CircuitPython Photointerrupters 
 
-	- LCD counter with switch.py
-	This code tells a lcd screen to print out the UP DWN value of a switch 
-	and a button value that goes up or dwn depending on the switch value
-	when the button is pressed.
+## Description
+In this project we are given the task of utilizing the "nEw FaNCy" Photointurrupters to count how many times they are inturpted. You get to tell this small machine it's one true purpose and it happily does it till the end of time or it burns out.
 
-	- Photo.py
-	This code uses a photo interrupter and counts the number of times a object
-	interrupts and then resumes and prints this value every 4 seconds without using
-	time.sleep. 
+## Revelations
 
-	- fade.py
-	makes a small led go from one color to another depeneding on what you have
-	set it to
+- These suckers love to burn out, so if you have power running through them ensure that neither wire is touching the other as this will fry the whole thing and you won't even notice until you have completly altered your already working code
+- Soddering is fun, do not TOUCH the metal.
+- The the numbers need a little fine tuning to prevent it from counting a gazillion times, just increase or decrease by whole numbers until it goes away.
+
+## Image
+
+<img src="Sketchs/Photointerrupter Image.PNG" width="230">
+
+##### [A link to where you can download the exact fzz (fritzing) file](https://github.com/cstours08/CircuitPython/blob/master/Sketchs/Photointerrupter%20Sketch.fzz)
+
+##### [Link to the code I wrote](https://github.com/cstours08/CircuitPython/blob/master/Photo.py)
+
+# CircuitPython Distance Sensor 
+
+## Description
+This assignment was very fun and very satisfying, it involved programming a "Bat" to color coordinate a LED based on the distance the "Bat" sent it. The whole spectrum has to be used and it needs to update roughly 10 times a second, so thats pretty cool. 
+
+## Revelations
+
+- Take pride in your work, this stuff is very complicated and difficult to comprehend correctly, I applaud you. Enjoy the little things.
+- Use resitors, preferably the correct resitors if you don't you will be greeted with spotted vision for the next hour or so.
+
+## Image
+
+<img src="Sketchs/DistanceSensor Image.PNG" width="230">
+
+##### [A link to where you can download the exact fzz (fritzing) file](https://github.com/cstours08/CircuitPython/blob/master/Sketchs/DistanceSensor%20Sketch.fzz)
+
+##### [Link to the code I wrote](https://github.com/cstours08/CircuitPython/blob/master/DistanceSensor.py)
