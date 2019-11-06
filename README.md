@@ -11,6 +11,12 @@
 
 -[CircuitPython Distance Sensor](#CircuitPython-Distance-Sensor)
 
+-[Classes, Objects, and Modules](#Classes-Objects-and-Modules)
+
+-[Hello VS Code](#Hello-VS-Code)
+
+-[FancyLED](#FancyLED)
+
 # Hello Arduino (and Metro and Mu) 
 
 ## Description
@@ -97,8 +103,69 @@ This assignment was very fun and very satisfying, it involved programming a "Bat
 
 ## Image
 
-<img src="Sketchs/DistanceSensor Image.PNG" width="230">
+<img src="Sketchs/DistanceSensor Image.PNG" width="300" height="350">
 
 ##### [A link to where you can download the exact fzz (fritzing) file](https://github.com/cstours08/CircuitPython/blob/master/Sketchs/DistanceSensor%20Sketch.fzz)
 
 ##### [Link to the code I wrote](https://github.com/cstours08/CircuitPython/blob/master/DistanceSensor.py)
+
+# Classes, Objects, and Modules 
+
+## Description
+
+In this mini project we were required to create seperate a module that we could then import into a code written by ours truly (Dr. Shields) We are not allowed to include/add anything else other then import whatever you named your module. For this assignment we were required to write a module that that tells 2 multi-color LEDs to fade through the different colors of the visible specterum. 
+
+## Revelations 
+
+- Coding is cool, it's much cooler (and easier) if you name your files correctly and appropriately
+- Do your best to understand the entrie process, it helps in the long run
+- This is codeception, a code connected to another code through another code
+
+## Image
+
+<img src="Sketchs/RGB Image.PNG" width="230">
+
+##### [A link to where you can download the exact fzz (fritzing) file](https://github.com/cstours08/CircuitPython/blob/master/Sketchs/RGB%20Sketch.fzz)
+
+##### [Link to the code I wrote](https://github.com/cstours08/CircuitPython/blob/master/rgb.py)
+
+# Hello VS Code 
+
+## Description
+
+For this realtively small assignment you get to go through the Joyous exsperience of figuring out how to use a glorified GitHub, with fancy buttons and figures and easier to understand. You laern through this assignment how to view folders and upload specific files to your GitHub page without using github!
+
+## Revelations
+
+- I am unsure if this is a common issue but VS code would not save itself to my homescreen and I would have to fish through files until I could find it eventually I simply pinned it to my taskbar for quick and easy access, do this from the begging it saves time
+- this platform is incredibly helpful for completing certain tasks, such as writing this, it will show a preview of what your typing and how a reader would view it, so this way you can make easy changes and quick fixes, otherwise this platform is useless. GitHub Bash is faster
+
+## Image
+
+?
+
+# FancyLED 
+
+## Description
+
+This time around we are coding 6 LEDs to blink in a series of patterns in 2 groups, again we get to create and use our own modules which greatly shortens the code and allows reuse of the strennuos portion of writing this code.
+
+## Revelations 
+
+- There is a series of shortcuts you can take throughout this project, only utilize them if you actually understand them
+- the Main code is simple, the module is not, ensure yourself ample time to complet every portion of this, simply it by writing seprate values for each combination of lights to simplfy the process. 
+
+## Image
+
+<img src="Sketchs/famcyLED Image.PNG" width="230">
+
+##### [A link to where you can download the exact fzz (fritzing) file](https://github.com/cstours08/CircuitPython/blob/master/Sketchs/famcyLED%20Sketch.fzz)
+
+##### [Link to the code I wrote](https://github.com/cstours08/CircuitPython/blob/master/fancyLED.py)
+
+
+
+
+
+
+##### Huzzah!!
